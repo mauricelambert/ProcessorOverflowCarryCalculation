@@ -1,3 +1,7 @@
+"""
+Understand and simulate how the processor calculates overflow, carry, and their impacts.
+"""
+
 from sys import argv, exit, stderr
 
 if len(argv) != 3:
