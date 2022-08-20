@@ -43,6 +43,6 @@ def int_to_string(i: int) -> str:
         i = -i
     while i != 0:
         remainder = i % 10
-        i /= 10
+        i //= 10
         s = CODE_CHARS[remainder] + s
     return sign + s
