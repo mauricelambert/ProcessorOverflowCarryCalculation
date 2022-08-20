@@ -9,7 +9,7 @@ from string import digits
 
 ZERO_CHAR: int = ord('0')
 CHAR_CODES: dict[str, int] = {i: ord(i) for i in digits}
-CODE_CHARS: dict[int, str] = {k: v for k, v in CHAR_CODES.items()}
+CODE_CHARS: dict[int, str] = {v: k for k, v in CHAR_CODES.items()}
 
 def string_to_int(s: str) -> int:
     """
